@@ -4,7 +4,6 @@
     Author     : megascus
 --%>
 
-<%@page import="java.nio.charset.StandardCharsets"%>
 <%@page import="java.io.InputStream"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -14,7 +13,7 @@
         <title>eXcale Infomation</title>
     </head>
     <body>
-        <h1>RuntimeInfo</h1>
+        <h1>ps -ef</h1>
         <pre>
 <%
         InputStream in = Runtime.getRuntime().exec("ps -ef").getInputStream();
@@ -22,7 +21,7 @@
         int len;
         
         while((len = in.read(buff)) != -1) {
-           out.write(new String(buff, 0, len, StandardCharsets.UTF_8)); 
+           out.write(new String(buff, 0, len)); 
         }
 %>
 </pre>
