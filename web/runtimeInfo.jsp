@@ -14,11 +14,13 @@
     <body>
         <h1>RuntimeInfo</h1>
         <%
-          Runtime runtime = Runtime.getRuntime();
+            Runtime runtime = Runtime.getRuntime();
         %>
-        Available Processors: <%= runtime.availableProcessors() %><br>
-        Max Memory: <%= runtime.maxMemory() %><br>
-        Total Memory: <%= runtime.totalMemory() %><br>
-        Free Memory: <%= runtime.freeMemory() %><br>
+        <ul>
+            <li>Available Processors: <%= runtime.availableProcessors()%></li>
+            <li>Max Memory: <%= runtime.maxMemory()%></li>
+            <li>Total Memory: <%= runtime.totalMemory()%></li>
+            <li>Free Memory: <%= runtime.freeMemory()%></li>
+        </ul>
     </body>
 </html>

@@ -13,8 +13,10 @@
     </head>
     <body>
         <h1>AppInfo</h1>
-        Working with server: <%= application.getServerInfo() %><br>
-        Servlet Specification: <%= application.getMajorVersion() %>.<%= application.getMinorVersion() %><br>
-        JSP version: <%= JspFactory.getDefaultFactory().getEngineInfo().getSpecificationVersion() %><br>
+        <ul>
+            <li>Application Server Name: <%= application.getServerInfo() %></li>
+            <li>Servlet Specification: <%= application.getMajorVersion() %>.<%= application.getMinorVersion() %></li>
+            <li>JSP version: <%= JspFactory.getDefaultFactory().getEngineInfo().getSpecificationVersion() %></li>
+        </ul>
     </body>
 </html>

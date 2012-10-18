@@ -16,7 +16,7 @@
         <h1>ps -ef</h1>
         <pre>
 <%
-        InputStream in = Runtime.getRuntime().exec("ps -ef").getInputStream();
+        InputStream in = Runtime.getRuntime().exec("/bin/ps -ef").getInputStream();
         byte[] buff = new byte[1024];
         int len;
         

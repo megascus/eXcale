@@ -13,12 +13,15 @@
     </head>
     <body>
         <h1>Properties</h1>
+        <ul>
         <%
           Properties props = System.getProperties();
           for(Object key: props.keySet()) {
+            out.write("<li>");
             out.write(key.toString() + "=" + props.getProperty((String)key));
-            out.write("<br>");
+            out.write("</li>");
           }
         %>
+        </ul>
     </body>
 </html>
