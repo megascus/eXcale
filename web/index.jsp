@@ -14,9 +14,10 @@
     <body>
         <h1>eXcale Infomation</h1>
         <ul>
-            <li><a href="./appInfo.jsp">appInfo</a></li>
-            <li><a href="./properties.jsp">properties</a></li>
-            <li><a href="./runtimeInfo.jsp">runtimeInfo</a></li>
+            <li><a href="./appInfo.jsp">Application Info</a></li>
+            <li><a href="./properties.jsp">Properties</a></li>
+            <li><a href="./runtimeInfo.jsp">Runtime Info</a></li>
+            <li><a href="./getenv.jsp">Envelopment Info</a></li>
         </ul>
         <!--<a href="./ps-ef.jsp">ps -ef</a><br> -->
     </body>

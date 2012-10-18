@@ -12,7 +12,7 @@
         <title>eXcale Infomation</title>
     </head>
     <body>
-        <h1>RuntimeInfo</h1>
+        <h1>Runtime Infomation</h1>
         <%
             Runtime runtime = Runtime.getRuntime();
         %>

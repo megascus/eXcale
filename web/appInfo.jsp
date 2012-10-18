@@ -12,7 +12,7 @@
         <title>eXcale Infomation</title>
     </head>
     <body>
-        <h1>AppInfo</h1>
+        <h1>Application Infomation</h1>
         <ul>
             <li>Application Server Name: <%= application.getServerInfo() %></li>
             <li>Servlet Specification: <%= application.getMajorVersion() %>.<%= application.getMinorVersion() %></li>
