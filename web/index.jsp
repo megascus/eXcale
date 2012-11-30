@@ -18,6 +18,7 @@
             <li><a href="./properties.jsp">Properties</a></li>
             <li><a href="./runtimeInfo.jsp">Runtime Infomation</a></li>
             <li><a href="./getenv.jsp">Envelopment Infomation</a></li>
+            <li><a href="./ApplicationName">Application Name</a></li>
         </ul>
         <!--<a href="./ps-ef.jsp">ps -ef</a><br> -->
     </body>
